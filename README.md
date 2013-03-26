@@ -1,4 +1,4 @@
 programmingpraxis
 =================
 
-Programming Praxis
+My solutions to exercises at http://programmingpraxis.com/
