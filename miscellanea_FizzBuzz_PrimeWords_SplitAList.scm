@@ -1,6 +1,5 @@
 ;;http://programmingpraxis.com/2011/04/26/miscellanea/
-;FizzBuzz
-
+;; FizzBuzz
 (define (enumerate-interval low high)
   (if (> low high)
       '()
@@ -20,8 +19,8 @@
         (else n)))
 
 (fizz-buzz 20)
-;prime words
-;prime? is from SICP
+;; Prime Words
+;;prime? is from SICP
 (define (prime? n)
   (define (smallest-divisor n)
     (find-divisor n 2))
@@ -51,7 +50,7 @@
 
 (prime-words? "LISP") ;#t
 (prime-words? "PRAXIS") ;#f
-;split a list
+;Split A List
 ;if length is odd, put the center element in first half
 (define (col first-half second-half)
   (cons first-half second-half))

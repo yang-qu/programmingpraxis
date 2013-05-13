@@ -1,3 +1,5 @@
+;;http://programmingpraxis.com/2011/04/01/maximum-difference-in-an-array/
+
 (define (enumerate-interval low high)
   (if (> low high)
       '()
